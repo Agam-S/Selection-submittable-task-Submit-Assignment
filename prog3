@@ -1,0 +1,32 @@
+using System;
+
+namespace SelTask_Prg3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        Console.WriteLine("Enter your first Number :");
+            int First = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Enter your second Number :");
+            int second = int.Parse(Console.ReadLine());
+
+
+
+        int TotalNum = (First + second);
+
+        if (TotalNum > 10) {
+            Console.WriteLine("Sum of numbers is greater than 10");
+        }
+
+        else if (TotalNum == 10) {
+            Console.WriteLine("Sum of numbers is equal to 10");
+        }
+        if (TotalNum < 10) {
+            Console.WriteLine("Sum of numbers is less than 10");
+        }
+        
+        }
+    }
+}
