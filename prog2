@@ -1,0 +1,33 @@
+using System;
+
+namespace SelTask_Prg1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Enter your Gender: ( Male / Female )");
+            string Gender = Console.ReadLine();
+
+            Console.WriteLine("Enter your age :");
+            int age = int.Parse(Console.ReadLine());
+       
+        if (Gender == "Male") {
+            Console.WriteLine("Male is");
+        }
+        else {
+            Console.WriteLine("Female is");
+        }
+
+        if (age > 17) {
+            Console.WriteLine("an adult");
+        }
+        else {
+            Console.WriteLine("not an adult");
+        }
+        
+
+        }
+    }
+}
