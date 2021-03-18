@@ -1,0 +1,23 @@
+using System;
+
+namespace SelTask_Prg1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter your age :");
+            int age = int.Parse(Console.ReadLine());
+
+        if (age > 17) {
+            Console.WriteLine("Legally adult age");
+        }
+        else {
+            Console.WriteLine("Legally not adult age");
+        }
+        
+
+        }
+    }
+}
