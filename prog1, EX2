@@ -1,0 +1,37 @@
+using System;
+
+namespace SelectionTask
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String Name, code;
+
+            Console.WriteLine("Enter your Username: ");
+            Name = Console.ReadLine();
+        
+            Console.WriteLine("Enter your Password: ");
+            code = Console.ReadLine();
+        
+        if (Name == "") {
+              Console.WriteLine("Login Unsuccessful");
+        }
+        
+        if (Name == "admin") {
+            Console.WriteLine("Login Successful");
+        } 
+        else {
+            Console.WriteLine("Sorry, the Username was Incorrect");
+
+        if (code == "admin") {
+            Console.WriteLine("Login Successful");
+        } 
+        else {
+            Console.WriteLine("Sorry, the Password was Incorrect");
+        }
+       
+        }
+    }
+}
+}
